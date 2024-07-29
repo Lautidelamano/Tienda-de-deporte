@@ -1,3 +1,39 @@
 .nav-link:hover {
 	border-bottom: solid 2px #3383df;
 }
+
+.card-product-selected {
+	display: grid;
+	grid-template-columns: 540px;
+	grid-template-rows:  10px 210px 80px;
+	border: black;
+	grid-template-areas: "image" "text" "stats";
+	border-radius:5% 5% 5% 5% / 10% 10% 10% 10%;
+	background: white;
+	box-shadow: 5px 15px 25px 15px rgba(0,0,0,0.9);
+	font-family: roboto;
+	text-align: center;
+}
+
+.card-text, .card-title{
+	color:#000;
+}
+
+.carrusel-product-selected{
+	border-radius:5% 5% 5% 5% / 10% 10% 10% 10%;
+	margin-left: 2rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.card-product-selected.dark-mode {
+    background: #333;
+    color: #fff;
+    border-color: #444;
+}
+
+.card-product-selected.dark-mode .card-text, 
+.card-product-selected.dark-mode .card-title {
+    color: #fff;
+}
+
