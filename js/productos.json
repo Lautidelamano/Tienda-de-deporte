@@ -1,0 +1,71 @@
+{
+    "hombre": [
+        {
+            "id": 1,
+            "nombre": "Camiseta Argentina",
+            "descripcion": "CAMISETA DE ARGENTINA ADIDAS OFICIAL BLANCA",
+            "precio": "$111.100",
+            "imagen": "../img/Camiseta Argentina.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "Camiseta Argentina",
+            "descripcion": "CAMISETA DE ARGENTINA ADIDAS OFICIAL BLANCA",
+            "precio": "$111.100",
+            "imagen": "../img/Camiseta Argentina.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "Camiseta Argentina",
+            "descripcion": "CAMISETA DE ARGENTINA ADIDAS OFICIAL BLANCA",
+            "precio": "$111.100",
+            "imagen": "../img/Camiseta Argentina.jpg"
+        }
+    ],
+    "mujer": [
+        {
+            "id": 1,
+            "nombre": "Zapatillas Adidas",
+            "descripcion": "ZAPATILLAS DE RUNNING ADIDAS START YOUR RUN MUJER BLANCA",
+            "precio": "$72.099",
+            "imagen": "../img/zapatillas-mujer.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "Zapatillas Adidas",
+            "descripcion": "ZAPATILLAS DE RUNNING ADIDAS START YOUR RUN MUJER BLANCA",
+            "precio": "$72.099",
+            "imagen": "../img/zapatillas-mujer.jpg"
+        },
+        {
+            "id": 3,
+            "nombre": "Zapatillas Adidas",
+            "descripcion": "ZAPATILLAS DE RUNNING ADIDAS START YOUR RUN MUJER BLANCA",
+            "precio": "$72.099",
+            "imagen": "../img/zapatillas-mujer.jpg"
+        }
+    ],
+    "ninos": [
+        {
+            "id": 1,
+            "nombre": "Botines nike",
+            "descripcion": "BOTINES DE FUTBOL NIKE PHANTOM GX II TF NIÑO NIÑA VERDE",
+            "precio": "$125.999",
+            "imagen": "../img/botines.jpg"
+        },
+        {
+            "id": 1,
+            "nombre": "Botines nike",
+            "descripcion": "BOTINES DE FUTBOL NIKE PHANTOM GX II TF NIÑO NIÑA VERDE",
+            "precio": "$125.999",
+            "imagen": "../img/botines.jpg"
+        },
+        {
+            "id": 1,
+            "nombre": "Botines nike",
+            "descripcion": "BOTINES DE FUTBOL NIKE PHANTOM GX II TF NIÑO NIÑA VERDE",
+            "precio": "$125.999",
+            "imagen": "../img/botines.jpg"
+        }
+    ]
+}
