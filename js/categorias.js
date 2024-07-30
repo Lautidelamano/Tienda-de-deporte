@@ -30,7 +30,7 @@ if (categoria) {
             productos.forEach(producto => {
                 html += `
                     <div class="card m-2" style="width: 18rem;">
-                        <img class="card-img-top" src="${producto.imagen}" alt="${producto.nombre}">
+                        <img class="card-img-top" src="${producto.imagen1}" alt="${producto.nombre}">
                         <div class="card-body">
                             <h5 class="card-title">${producto.nombre}</h5>
                             <p class="card-text">${producto.descripcion}</p>

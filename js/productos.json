@@ -5,21 +5,29 @@
             "nombre": "Camiseta Argentina",
             "descripcion": "CAMISETA DE ARGENTINA ADIDAS OFICIAL BLANCA",
             "precio": "$111.100",
-            "imagen": "../img/Camiseta Argentina.jpg"
+            "imagen1": "../img/Camiseta-Argentina.jpg",
+            "imagen2": "../img/botines.jpg",
+            "imagen3": "../img/Zapatillas-mujer.jpg"
         },
         {
             "id": 2,
             "nombre": "Camiseta Argentina",
             "descripcion": "CAMISETA DE ARGENTINA ADIDAS OFICIAL BLANCA",
             "precio": "$111.100",
-            "imagen": "../img/Camiseta Argentina.jpg"
+            "imagen1": "../img/Camiseta-Argentina.jpg",
+            "imagen2": "../img/Camiseta-Argentina.jpg",
+            "imagen3": "../img/Camiseta-Argentina.jpg"
+
         },
         {
             "id": 2,
             "nombre": "Camiseta Argentina",
             "descripcion": "CAMISETA DE ARGENTINA ADIDAS OFICIAL BLANCA",
             "precio": "$111.100",
-            "imagen": "../img/Camiseta Argentina.jpg"
+            "imagen1": "../img/Camiseta-Argentina.jpg",
+            "imagen2": "../img/Camiseta-Argentina.jpg",
+            "imagen3": "../img/Camiseta-Argentina.jpg"
+
         }
     ],
     "mujer": [
@@ -65,7 +73,7 @@
             "nombre": "Botines nike",
             "descripcion": "BOTINES DE FUTBOL NIKE PHANTOM GX II TF NIÑO NIÑA VERDE",
             "precio": "$125.999",
-            "imagen": "../img/botines.jpg"
+            "imagen": "../img/botines.jpg" 
         }
     ]
 }
