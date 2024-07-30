@@ -110,107 +110,11 @@
 			</div>
 		</header>
 
-		<main>
-			<div class="container mt-5" id="contenido">
-				<!-- Aca se cambia el contenido dependiendo de la categoría -->
-			</div>
-
-			<!-- JavaScript personalizado -->
-			<script>
-				function getParameterByName(name) {
-					name = name.replace(/[\[\]]/g, '\\$&');
-					const url = window.location.href;
-					const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
-					const results = regex.exec(url);
-					if (!results) return null;
-					if (!results[2]) return '';
-					return decodeURIComponent(results[2].replace(/\+/g, ' '));
-				}
-
-				const categoria = getParameterByName('categoria');
-
-				const contenido = document.getElementById('contenido');
-
-				switch (categoria) {
-					case 'hombre':
-						// Contenido categoria de hombre
-						contenido.innerHTML = `
-                        <h1>Ropa y accesorios para Hombre</h1>
-                        <div class="row">
-                    <!-- Producto 1 -->
-                            <div class="card m-2" style="width: 18rem;">
-                                <img class="card-img-top" src="../img/Camiseta-Argentina.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Camiseta Argentina</h5>
-                                    <p class="card-text">CAMISETA DE ARGENTINA ADIDAS OFICIAL BLANCA</p>
-                                    <p>$111.100</p>
-                                    <a href="#" class="btn btn-primary">Ver más</a>
-                                </div>
-                            </div>
-                    <!-- Producto 2 -->
-                            <div class="card m-2" style="width: 18rem;">
-                                <img class="card-img-top" src="../img/Camiseta-Argentina.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Camiseta Argentina</h5>
-                                    <p class="card-text">CAMISETA DE ARGENTINA ADIDAS OFICIAL BLANCA</p>
-                                    <p>$111.100</p>
-                                    <a href="#" class="btn btn-primary">Ver más</a>
-                                </div>
-                            </div>
-                    <!-- Producto 3 -->
-                            <div class="card m-2" style="width: 18rem;">
-                                <img class="card-img-top" src="../img/Camiseta-Argentina.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Camiseta Argentina</h5>
-                                    <p class="card-text">CAMISETA DE ARGENTINA ADIDAS OFICIAL BLANCA</p>
-                                    <p>$111.100</p>
-                                    <a href="#" class="btn btn-primary">Ver más</a>
-                                </div>
-                            </div>
-                        </div>`;
-						break;
-
-					// Contenido categoria de mujer
-
-					case 'mujer':
-						contenido.innerHTML = `
-                        <h1>Ropa y accesorios para Mujer</h1>
-                        <div class="row">
-                            <div class="card m-2" style="width: 18rem;">
-                                <img class="card-img-top" src="../img/zapatillas-mujer.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Zapatillas Adidas</h5>
-                                    <p class="card-text">ZAPATILLAS DE RUNNING ADIDAS START YOUR RUN MUJER BLANCA</p>
-                                    <p>$72.099</p>
-                                    <a href="#" class="btn btn-primary">Ver más</a>
-                                </div>
-                            </div>
-                            <!-- Agrega más productos según sea necesario -->
-                        </div>`;
-						break;
-					// Contenido categoria niños
-					case 'ninos':
-						contenido.innerHTML = `
-                        <h1>Ropa y accesorios para Niños</h1>
-                        <div class="row">
-                            <div class="card m-2" style="width: 18rem;">
-                                <img class="card-img-top" src="../img/botines.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Botines nike</h5>
-                                    <p class="card-text">BOTINES DE FUTBOL NIKE PHANTOM GX II TF NIÑO NIÑA VERDE</p>
-                                    <p>$125.999</p>
-                                    <a href="#" class="btn btn-primary">Ver más</a>
-                                </div>
-                            </div>
-                            <!-- Agrega más productos según sea necesario -->
-                        </div>`;
-						break;
-					default:
-						contenido.innerHTML =
-							'<p>Selecciona una categoría del menú para ver contenido.</p>';
-						break;
-				}
-			</script>
+		<main class=" pb-5 mb-5">
+            <div class="container mt-5 pt-4" id="contenido">
+                <!-- Aca se cambia el contenido dependiendo de la categoría -->
+				<!-- JavaScript personalizado ./js/categorias.js -->
+            </div>
 		</main>
 
 		<footer class="mt-3 bg-dark p-2 text-dark bg-opacity-25">
@@ -285,6 +189,7 @@
 			</div>
 		</footer>
 
+		<script src="../js/categorias.js"></script>
 		<script src="../js/index.js"></script>
 		<!-- Bootstrap -->
 		<script
