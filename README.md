@@ -89,6 +89,6 @@ almacenamos en el **localstorage**.
 
 ## Link navegable
 
-[Acceder al sitio](https://mario-r-aguilar.github.io/bootcamp-cilsa-trabajo-practico-clase-7-tienda-de-deportes/)
+[Acceder al sitio](https://mario-r-aguilar.github.io/bootcamp-cilsa-trabajo-practico-clase-7-tienda-de-deportes/index.html)
 
 ![Imagen animada mostrando la navegación por el sitio](./img/resources-readme/07-navegacion-sitio.gif)
