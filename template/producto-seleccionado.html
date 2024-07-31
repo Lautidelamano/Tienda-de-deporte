@@ -111,6 +111,7 @@
 
 		<main class="mb-3 p-5">
 			<section>
+				<button id="link-anterior" class="btn btn-secondary">Volver a la categoria</button>
 				<h1 class="mt-2 ms-3 text-center">Detalle del producto</h1>
 				<!-- Centrar card en la pantalla -->
 				<div class="d-flex justify-content-center mt-5 mb-3">
@@ -152,6 +153,7 @@
 									<div class="carousel-inner">
 										<div class="carousel-item active">
 											<img
+												id="imagen1"
 												src="../img/Camiseta-Argentina.jpg"
 												class="d-block w-100 img-fluid"
 												alt="Vista 1 del producto seleccionado"
@@ -159,6 +161,7 @@
 										</div>
 										<div class="carousel-item active">
 											<img
+												id="imagen2"
 												src="../img/botines.jpg"
 												class="d-block w-100 img-fluid"
 												alt="Vista 2 del producto seleccionado"
@@ -166,6 +169,7 @@
 										</div>
 										<div class="carousel-item">
 											<img
+												id="imagen3"
 												src="../img/Zapatillas-mujer.jpg"
 												class="d-block w-100 img-fluid"
 												alt="Vista 3 del producto seleccionado"
@@ -201,10 +205,14 @@
 							</div>
 							<div class="col-sm-6 col-md-6">
 								<div class="card-body">
-									<h2 class="card-title text-center mb-2 p-2">Titulo</h2>
-									<p class="card-text p-2">Descripción</p>
-									<p class="card-text p-2">Categoría</p>
-									<p class="card-text p-2">Precio</p>
+									<h2 class="card-title text-center mb-2 p-2" id="titulo-card">Titulo</h2>
+									<p class="card-text p-2" id="descripcion-card">Descripción</p>
+									<p class="card-text p-2" id="categoria-card">Categoría</p>
+									<p class="card-text p-2" id="precio-card">Precio</p>
+									<button class="btn btn-primary" id="btn-buy">Comprar</button>
+								</div>
+								<div id="card-info">
+
 								</div>
 							</div>
 						</div>
@@ -287,6 +295,7 @@
 		</footer>
 
 		<script src="../js/index.js"></script>
+		<script src="../js/detalle.js"></script>
 		<!-- Bootstrap -->
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
