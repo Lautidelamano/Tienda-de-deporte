@@ -87,4 +87,8 @@ almacenamos en el **localstorage**.
 - Bootstrap
 - Javascript
 
+## Link navegable
+
+[Acceder al sitio](https://mario-r-aguilar.github.io/bootcamp-cilsa-trabajo-practico-clase-7-tienda-de-deportes/)
+
 ![Imagen animada mostrando la navegación por el sitio](./img/resources-readme/07-navegacion-sitio.gif)
