@@ -2,10 +2,10 @@
 
 ## Integrantes del equipo
 
-[<img src="https://avatars.githubusercontent.com/u/51267382?v=4" width="32" height="32"><span> Dardo Santana</span>](https://github.com/dardosantana)
-[<img src="https://avatars.githubusercontent.com/u/88746668?v=4" width="32" height="32"><span> Lautaro de la Mano</span>](https://github.com/Lautidelamano)
-[<img src="https://avatars.githubusercontent.com/u/106196604?v=4" width="32" height="32"><span> Fernando Barrionuevo</span>](https://github.com/Rasta07)
-[<img src="https://avatars.githubusercontent.com/u/90810678?v=4" width="32" height="32"><span> Mario Aguilar</span>](https://github.com/mario-r-aguilar)
+- **[Dardo Santana](https://github.com/dardosantana)**
+- **[Lautaro de la Mano](https://github.com/Lautidelamano)**
+- **[Fernando Barrionuevo](https://github.com/Rasta07)**
+- **[Mario Aguilar](https://github.com/mario-r-aguilar)**
 
 ## Objetivo
 
