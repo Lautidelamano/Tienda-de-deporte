@@ -1,79 +1,89 @@
 {
-    "hombre": [
-        {
-            "id": 1,
-            "nombre": "Camiseta Argentina",
-            "descripcion": "CAMISETA DE ARGENTINA ADIDAS OFICIAL BLANCA",
-            "precio": "$111.100",
-            "imagen1": "../img/Camiseta-Argentina.jpg",
-            "imagen2": "../img/botines.jpg",
-            "imagen3": "../img/Zapatillas-mujer.jpg"
-        },
-        {
-            "id": 2,
-            "nombre": "Camiseta Argentina",
-            "descripcion": "CAMISETA DE ARGENTINA ADIDAS OFICIAL BLANCA",
-            "precio": "$111.100",
-            "imagen1": "../img/Camiseta-Argentina.jpg",
-            "imagen2": "../img/Camiseta-Argentina.jpg",
-            "imagen3": "../img/Camiseta-Argentina.jpg"
-
-        },
-        {
-            "id": 2,
-            "nombre": "Camiseta Argentina",
-            "descripcion": "CAMISETA DE ARGENTINA ADIDAS OFICIAL BLANCA",
-            "precio": "$111.100",
-            "imagen1": "../img/Camiseta-Argentina.jpg",
-            "imagen2": "../img/Camiseta-Argentina.jpg",
-            "imagen3": "../img/Camiseta-Argentina.jpg"
-
-        }
-    ],
-    "mujer": [
-        {
-            "id": 1,
-            "nombre": "Zapatillas Adidas",
-            "descripcion": "ZAPATILLAS DE RUNNING ADIDAS START YOUR RUN MUJER BLANCA",
-            "precio": "$72.099",
-            "imagen": "../img/zapatillas-mujer.jpg"
-        },
-        {
-            "id": 2,
-            "nombre": "Zapatillas Adidas",
-            "descripcion": "ZAPATILLAS DE RUNNING ADIDAS START YOUR RUN MUJER BLANCA",
-            "precio": "$72.099",
-            "imagen": "../img/zapatillas-mujer.jpg"
-        },
-        {
-            "id": 3,
-            "nombre": "Zapatillas Adidas",
-            "descripcion": "ZAPATILLAS DE RUNNING ADIDAS START YOUR RUN MUJER BLANCA",
-            "precio": "$72.099",
-            "imagen": "../img/zapatillas-mujer.jpg"
-        }
-    ],
-    "ninos": [
-        {
-            "id": 1,
-            "nombre": "Botines nike",
-            "descripcion": "BOTINES DE FUTBOL NIKE PHANTOM GX II TF NIÑO NIÑA VERDE",
-            "precio": "$125.999",
-            "imagen": "../img/botines.jpg"
-        },
-        {
-            "id": 1,
-            "nombre": "Botines nike",
-            "descripcion": "BOTINES DE FUTBOL NIKE PHANTOM GX II TF NIÑO NIÑA VERDE",
-            "precio": "$125.999",
-            "imagen": "../img/botines.jpg"
-        },
-        {
-            "id": 1,
-            "nombre": "Botines nike",
-            "descripcion": "BOTINES DE FUTBOL NIKE PHANTOM GX II TF NIÑO NIÑA VERDE",
-            "precio": "$125.999",
-            "imagen": "../img/botines.jpg" 
-        }
-    ]
+	"hombre": [
+		{
+			"id": 1,
+			"nombre": "Zapatillas Adidas",
+			"descripcion": "Zapatillas Adidas Tracefinder De Hombre",
+			"precio": "$120.999",
+			"imagen1": "../img/zapatillas-adidas_hombre_1.jpg",
+			"imagen2": "../img/zapatillas-adidas_hombre_2.jpg",
+			"imagen3": "../img/zapatillas-adidas_hombre_3.jpg"
+		},
+		{
+			"id": 2,
+			"nombre": "Musculosa Adidas",
+			"descripcion": "Musculosa Adidas Selección Argentina Tiro 24 De Hombre",
+			"precio": "$55.999",
+			"imagen1": "../img/musculosa_adidas_hombre_1.jpg",
+			"imagen2": "../img/musculosa_adidas_hombre_2.jpg",
+			"imagen3": "../img/musculosa_adidas_hombre_2.jpg"
+		},
+		{
+			"id": 3,
+			"nombre": "Pantalón Puma",
+			"descripcion": "Pantalón Puma Power De Hombre",
+			"precio": "$58.990",
+			"imagen1": "../img/pantalon_puma_hombre_1.jpg",
+			"imagen2": "../img/pantalon_puma_hombre_2.jpg",
+			"imagen3": "../img/pantalon_puma_hombre_3.jpg"
+		}
+	],
+	"mujer": [
+		{
+			"id": 4,
+			"nombre": "Buzo Fila",
+			"descripcion": "Buzo Fila Lettering II De Mujer",
+			"precio": "$59.899",
+			"imagen1": "../img/buzo_fila_mujer_1.jpg",
+			"imagen2": "../img/buzo_fila_mujer_2.jpg",
+			"imagen3": "../img/buzo_fila_mujer_3.jpg"
+		},
+		{
+			"id": 5,
+			"nombre": "Zapatillas Adidas",
+			"descripcion": "Zapatillas Adidas Adizero Boston 12 De Mujer",
+			"precio": "$235.999",
+			"imagen1": "../img/zapatillas_adidas_mujer_1.jpg",
+			"imagen2": "../img/zapatillas_adidas_mujer_2.jpg",
+			"imagen3": "../img/zapatillas_adidas_mujer_3.jpg"
+		},
+		{
+			"id": 6,
+			"nombre": "Pollera Adidas",
+			"descripcion": "Pollera Adidas Run Icons De Mujer",
+			"precio": "$64.999",
+			"imagen1": "../img/pollera_adidas_mujer_1.jpg",
+			"imagen2": "../img/pollera_adidas_mujer_2.jpg",
+			"imagen3": "../img/pollera_adidas_mujer_3.jpg"
+		}
+	],
+	"ninos": [
+		{
+			"id": 7,
+			"nombre": "Zapatillas Fila",
+			"descripcion": "Zapatillas Fila Elite De Niños",
+			"precio": "$59.999",
+			"imagen1": "../img/zapatilla_fila_ninos_1.jpg",
+			"imagen2": "../img/zapatilla_fila_ninos_2.jpg",
+			"imagen3": "../img/zapatilla_fila_ninos_3jpg"
+		},
+		{
+			"id": 8,
+			"nombre": "Pantalón Atlét",
+			"descripcion": "Pantalón Atlét Fútbol De Niños",
+			"precio": "$49.999",
+			"imagen1": "../img/pantalon_atlet_ninos_1.jpg",
+			"imagen2": "../img/pantalon_atlet_ninos_2.jpg",
+			"imagen3": "../img/pantalon_atlet_ninos_3.jpg"
+		},
+		{
+			"id": 9,
+			"nombre": "Camiseta Argentina",
+			"descripcion": "Camiseta Titular Argentina 2024",
+			"precio": "$79.999",
+			"imagen1": "../img/camiseta_argentina_ninos_1.jpg",
+			"imagen2": "../img/camiseta_argentina_ninos_2.jpg",
+			"imagen3": "../img/camiseta_argentina_ninos_3.jpg"
+		}
+	]
 }
