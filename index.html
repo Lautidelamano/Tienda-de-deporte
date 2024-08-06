@@ -114,15 +114,15 @@
 					id="contrast-btn"
 					class="position-absolute top-0 end-0 me-3 mt-3 btn btn-dark"
 				>
-					<span class="bi bi-circle-half"> Contraste</span>
+					<span class="bi bi-circle-half"> Cambiar Contraste</span>
 				</button>
 			</div>
 		</header>
 
 		<main class="mb-5">
-			<h1 class="mt-5 ms-3 text-center">All Sports</h1>
 			<section>
-				<h2 class="mt-5 text-center text-bg-dark text-primary shadow p-2">
+				<h1 class="mt-5 p-4 text-center fw-bolder">All Sports</h1>
+				<h2 class="mt-3 text-center shadow-large p-3 slogan">
 					Lleva tu rendimiento al siguiente nivel
 				</h2>
 				<article>
@@ -221,6 +221,7 @@
 									type="button"
 									data-bs-target="#carouselIndex"
 									data-bs-slide="prev"
+									aria-label="volver al slide anterior"
 								>
 									<span
 										class="carousel-control-prev-icon"
@@ -233,6 +234,7 @@
 									type="button"
 									data-bs-target="#carouselIndex"
 									data-bs-slide="next"
+									aria-label="ir al slide siguiente"
 								>
 									<span
 										class="carousel-control-next-icon"
@@ -267,22 +269,8 @@
 										aria-labelledby="headingZero"
 										data-bs-parent="#accordionIndex"
 									>
-										<div class="accordion-body">
-											<strong>Si pagas con Modo,</strong>
-											te llevamos el producto sin cargo y podes pagarlo hasta en
-											<strong>18 cuotas SIN INTERES!</strong>
-											<p>Planes de financiación:</p>
-											<ul>
-												<li>3 cuotas sin interés</li>
-												<li>6 cuotas sin interés</li>
-												<li>9 cuotas sin interés</li>
-												<li>12 cuotas sin interés</li>
-												<li>18 cuotas sin interés</li>
-											</ul>
-											Los días <strong>lunes</strong> además tenes
-											<strong>15% de descuento</strong> y los días
-											<strong>viernes</strong> tenes
-											<strong>10% de descuento</strong>.
+										<div class="accordion-body" id="modo-content">
+											<!-- renderiza promociones de pago con modo -->
 										</div>
 									</div>
 								</div>
@@ -309,16 +297,8 @@
 										aria-labelledby="headingOne"
 										data-bs-parent="#accordionIndex"
 									>
-										<div class="accordion-body">
-											<strong>Si pagas con Tarjeta Naranja,</strong>
-											te ofrecemos las siguientes financiaciones:
-											<ul class="mt-2">
-												<li>Plan Z</li>
-												<li>3 cuotas sin interés</li>
-												<li>6 cuotas sin interés</li>
-											</ul>
-											Los días <strong>martes</strong> además tenes
-											<strong>10% de descuento</strong>.
+										<div class="accordion-body" id="naranja-content">
+											<!-- renderiza promociones de pago con tarjeta naranja -->
 										</div>
 									</div>
 								</div>
@@ -345,16 +325,8 @@
 										aria-labelledby="headingTwo"
 										data-bs-parent="#accordionIndex"
 									>
-										<div class="accordion-body">
-											<strong>Si pagas con Tarjeta Visa,</strong>
-											te ofrecemos las siguientes financiaciones:
-											<ul class="mt-2">
-												<li>3 cuotas sin interés</li>
-												<li>6 cuotas sin interés</li>
-												<li>9 cuotas sin interés</li>
-											</ul>
-											Los días <strong>jueves</strong> además tenes
-											<strong>15% de descuento</strong>.
+										<div class="accordion-body" id="visa-content">
+											<!-- renderiza promociones de pago con tarjeta visa -->
 										</div>
 									</div>
 								</div>
@@ -381,17 +353,8 @@
 										aria-labelledby="headingThree"
 										data-bs-parent="#accordionIndex"
 									>
-										<div class="accordion-body">
-											<strong>Si pagas con Tarjeta Mastercard</strong>
-											te ofrecemos las siguientes financiaciones:
-											<ul class="mt-2">
-												<li>3 cuotas sin interés</li>
-												<li>6 cuotas sin interés</li>
-												<li>9 cuotas sin interés</li>
-												<li>12 cuotas sin interés</li>
-											</ul>
-											Los días <strong>miércoles</strong> además tenes
-											<strong>10% de descuento</strong>.
+										<div class="accordion-body" id="mastercard-content">
+											<!-- renderiza promociones de pago con tarjeta mastercard -->
 										</div>
 									</div>
 								</div>
@@ -405,49 +368,54 @@
 		<footer class="mt-3 bg-dark p-2 text-dark bg-opacity-25">
 			<div class="container-fluid">
 				<div class="row text-center">
-					<div class="col-12 col-md-4">
-						<div class="ms-2 d-block">
+					<div
+						class="col-12 col-md-4 d-flex flex-column align-items-center justify-content-center"
+					>
+						<div class="mb-2">
 							<a
 								href="https://www.instagram.com/"
 								target="_blank"
 								class="text-decoration-none"
 								aria-label="Ir al perfil de Instagram"
 							>
-								<i class="bi bi-instagram text-danger"></i
-								><span class="ms-1 text-dark">Instagram</span>
+								<i class="bi bi-instagram text-danger"></i>
+								<span class="ms-1 text-dark">Instagram</span>
 							</a>
 						</div>
-						<div class="ms-2 d-block">
+						<div class="mb-2">
 							<a
 								href="https://www.facebook.com/"
 								target="_blank"
 								class="text-decoration-none"
 								aria-label="Ir al perfil de Facebook"
 							>
-								<i class="bi bi-facebook text-primary"></i
-								><span class="ms-1 text-dark">Facebook</span>
+								<i class="bi bi-facebook text-primary"></i>
+								<span class="ms-1 text-dark">Facebook</span>
 							</a>
 						</div>
-
-						<div class="ms-2 d-block">
+						<div class="mb-2">
 							<a
 								href="https://x.com/"
 								target="_blank"
 								class="text-decoration-none"
 								aria-label="Ir al perfil de Twitter"
 							>
-								<i class="bi bi-twitter-x text-dark"></i
-								><span class="ms-1 text-dark">Twitter</span>
+								<i class="bi bi-twitter-x text-dark"></i>
+								<span class="ms-1 text-dark">Twitter</span>
 							</a>
 						</div>
 					</div>
 
-					<div class="col-12 col-md-4 fw-bold copyright-element p-4">
+					<div
+						class="col-12 col-md-4 d-flex align-items-center justify-content-center fw-bold copyright-element p-3"
+					>
 						© Desarrollo Grupal 2024
 					</div>
 
-					<div class="col-12 col-md-4">
-						<div class="ms-2 d-block">
+					<div
+						class="col-12 col-md-4 d-flex flex-column align-items-center justify-content-center"
+					>
+						<div class="mb-2">
 							<a
 								href="https://wa.me/54117771111"
 								target="_blank"
@@ -458,8 +426,7 @@
 								<span class="ms-1 text-dark">Whatsapp</span>
 							</a>
 						</div>
-
-						<div class="ms-2 d-block">
+						<div class="mb-2">
 							<a
 								href="mailto:info@allsports.com"
 								class="text-decoration-none"
@@ -475,6 +442,7 @@
 		</footer>
 
 		<script src="./js/script-general.js"></script>
+		<script src="./js/index.js"></script>
 		<!-- Bootstrap -->
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"

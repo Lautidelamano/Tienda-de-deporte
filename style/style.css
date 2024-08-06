@@ -1,5 +1,7 @@
 .nav-link:hover {
 	border-bottom: solid 2px #3383df;
+	color: #3383df;
+	background-color: rgba(51, 131, 223, 0.1);
 }
 
 .card-product-selected {
@@ -10,4 +12,11 @@
 .card-text,
 .card-title {
 	color: #000;
+}
+
+.slogan {
+	background-color: #ffcc00;
+	color: #0e0e0e;
+	font-size: 1.5rem;
+	font-weight: 700;
 }
