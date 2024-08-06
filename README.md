@@ -80,6 +80,10 @@ almacenamos en el **localstorage**.
 
 ![Captura de la página de Contacto con Alto Contraste seleccionado](./img/resources-readme/06-captura-alto-contraste.png)
 
+> [!NOTE]
+> Los colores de los diseños o tamaños de los elementos en las capturas son a modo ilustrativos.
+> Los mismos han tenido leves variaciones, de acuerdo a las sugerencias recibidas por parte de los profesores.
+
 ## Tecnologías utilizadas
 
 - HTML
